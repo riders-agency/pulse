@@ -13,8 +13,6 @@ class PulseClient {
             ]
         ]);
 
-        # Process the response as needed
-
         return $response;
     }
 }
