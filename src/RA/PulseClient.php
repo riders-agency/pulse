@@ -1,4 +1,6 @@
-namespace RA;
+<?php
+
+namespace RidersAgency;
 
 class PulseClient {
     public function send($uuid, $data) {
