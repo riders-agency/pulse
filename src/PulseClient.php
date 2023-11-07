@@ -6,7 +6,7 @@ class PulseClient {
         $response = $client->request('POST', 'https://pulse.riders.agency/send', [
             'query' => [
                 'uuid' => $uuid,
-                'data' => json_encode($data),
+                'data' => $data,
             ]
         ]);
         return $response;
