@@ -17,8 +17,5 @@
         "psr-4": {
             "RA\\": "src/"
         }
-    },
-    "version": "v1.0.2-stable",
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    }
 }
