@@ -1,6 +1,6 @@
 {
     "name": "ridersagency/pulseclient",
-    "description": "A client library for interacting with the Pulse API",
+    "description": "A client library for interacting with the Riders Pulse API",
     "type": "library",
     "license": "MIT",
     "authors": [
