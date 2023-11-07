@@ -5,8 +5,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Riders.agency",
-            "email": "hello@riders.agency"
+            "name": "Your Name",
+            "email": "your@email.com"
         }
     ],
     "require": {
@@ -17,5 +17,7 @@
         "psr-4": {
             "RA\\": "src/"
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
