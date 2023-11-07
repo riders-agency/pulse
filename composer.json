@@ -1,5 +1,21 @@
 {
+    "name": "ridersagency/pulseclient",
+    "description": "A client library for interacting with the Pulse API",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Riders.agency",
+            "email": "hello@riders.agency"
+        }
+    ],
     "require": {
-    "guzzlehttp/guzzle": "^7.0"
+        "php": "^7.4",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "RA\\": "src/"
+        }
     }
 }
