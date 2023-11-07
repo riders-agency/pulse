@@ -22,7 +22,7 @@ $pulseClient = new PulseClient();
 // Send the POST request using the Pulse class
 $response = $pulseClient->send('CLIENT_UUID', 'This is the test, just enjoy');
 ```
-Replace 'CLIENT_UUID' with the actual client UUID you want to use.
+Replace `'CLIENT_UUID'` with the actual client UUID you want to use.
 
 ## Further Reading
 
